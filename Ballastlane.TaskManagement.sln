@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ballastlane.TaskManagement.Web", "Ballastlane.TaskManagement.Web\Ballastlane.TaskManagement.Web.csproj", "{70B22DB6-71AD-4F00-A839-07401120B915}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ballastlane.TaskManagement.Core", "Ballastlane.TaskManagement.Core\Ballastlane.TaskManagement.Core.csproj", "{295A69B6-FECB-40B0-A407-BC3C376A7D7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ballastlane.TaskManagement.Infrastructure", "Ballastlane.TaskManagement.Infrastructure\Ballastlane.TaskManagement.Infrastructure.csproj", "{20510941-BFEF-4A1D-827B-E76A509D0ECD}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{AB99E1C1-2661-4FF4-9E2E-E7E1227F2AD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ballastlane.TaskManagement.Security", "Ballastlane.TaskManagement.Security\Ballastlane.TaskManagement.Security.csproj", "{93999E80-32DA-46BB-B282-CBFE1CAEB0B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ballastlane.TaskManagement.Test", "Ballastlane.TaskManagement.Test\Ballastlane.TaskManagement.Test.csproj", "{DF1AF2DF-0D1B-4467-95DF-1E3206254D3B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70B22DB6-71AD-4F00-A839-07401120B915}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70B22DB6-71AD-4F00-A839-07401120B915}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70B22DB6-71AD-4F00-A839-07401120B915}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70B22DB6-71AD-4F00-A839-07401120B915}.Release|Any CPU.Build.0 = Release|Any CPU
+		{295A69B6-FECB-40B0-A407-BC3C376A7D7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{295A69B6-FECB-40B0-A407-BC3C376A7D7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{295A69B6-FECB-40B0-A407-BC3C376A7D7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{295A69B6-FECB-40B0-A407-BC3C376A7D7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20510941-BFEF-4A1D-827B-E76A509D0ECD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20510941-BFEF-4A1D-827B-E76A509D0ECD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20510941-BFEF-4A1D-827B-E76A509D0ECD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20510941-BFEF-4A1D-827B-E76A509D0ECD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB99E1C1-2661-4FF4-9E2E-E7E1227F2AD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB99E1C1-2661-4FF4-9E2E-E7E1227F2AD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB99E1C1-2661-4FF4-9E2E-E7E1227F2AD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB99E1C1-2661-4FF4-9E2E-E7E1227F2AD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93999E80-32DA-46BB-B282-CBFE1CAEB0B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93999E80-32DA-46BB-B282-CBFE1CAEB0B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93999E80-32DA-46BB-B282-CBFE1CAEB0B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93999E80-32DA-46BB-B282-CBFE1CAEB0B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF1AF2DF-0D1B-4467-95DF-1E3206254D3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF1AF2DF-0D1B-4467-95DF-1E3206254D3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF1AF2DF-0D1B-4467-95DF-1E3206254D3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF1AF2DF-0D1B-4467-95DF-1E3206254D3B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FEE13A3A-09F0-4961-93B6-F224ED9902DA}
+	EndGlobalSection
+EndGlobal
